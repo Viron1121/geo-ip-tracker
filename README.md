@@ -13,20 +13,20 @@
 3. install package "composer install"
 4. create .env file on backend folder 
    in my case i am using mysql
-
    paste this configuration on .env
-    DB_CONNECTION=mysql    # change to your database driver (e.g., pgsql, sqlite, sqlsrv)
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=ip_api
-    DB_USERNAME=root
-    DB_PASSWORD=
+   
+   ```env
+   DB_CONNECTION=mysql # change to your database driver (e.g., pgsql, sqlite, sqlsrv)
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=ip_api
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
 
     php artisan migrate  
     php artisan db:seed --class=UserSeeder
     php artisan serve
-
-    
 
 ## Go for client side folder
 5. cd react-ip-app
