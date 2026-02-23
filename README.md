@@ -26,6 +26,7 @@
 
     php artisan migrate  
     php artisan db:seed --class=UserSeeder
+    
     php artisan serve
 
 ## Go for client side folder
